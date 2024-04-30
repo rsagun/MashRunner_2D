@@ -3256,3 +3256,126 @@ Script Stack (0 frames) :
 [2024.04.30-06.03.07:195][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 1.74 sec)
 [2024.04.30-06.03.07:203][187]AssetCheck: New page: Asset Save: BP_Runner
 [2024.04.30-06.03.07:203][187]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Runner.BP_Runner
+[2024.04.30-06.07.56:457][193]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.30-06.07.56:460][193]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.30-06.07.56:461][193]LogPlayLevel: [PlayLevel] Compiling BP_Runner before play...
+[2024.04.30-06.07.56:550][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.04.30-06.07.56:553][193]LogPlayLevel: PlayLevel: Blueprint regeneration took 93 ms (1 blueprints)
+[2024.04.30-06.07.56:553][193]PIE: New page: PIE session: MAP_Debug (Apr 29, 2024, 4:07:56 PM)
+[2024.04.30-06.07.56:553][193]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.04.30-06.07.56:555][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001562s)
+[2024.04.30-06.07.56:555][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001591s)
+[2024.04.30-06.07.56:555][193]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-06.07.56:555][193]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-06.07.56:555][193]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.04.30-06.07.56:555][193]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2024.04.30-06.07.56:573][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.04.30-06.07.56:574][193]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.04.30-06.07.56:574][193]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.30-06.07.56:574][193]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.30-06.07.56:574][193]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.30-06.07.56:574][193]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.30-06.07.56:574][193]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.30-06.07.56:574][193]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.30-06.07.56:574][193]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.30-06.07.56:574][193]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.30-06.07.56:574][193]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.30-06.07.56:574][193]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.30-06.07.56:574][193]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.30-06.07.56:576][193]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.30-06.07.56:592][193]LogAudioMixer: Display: Using Audio Hardware Device Speakers (FiiO Q series)
+[2024.04.30-06.07.56:593][193]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.30-06.07.56:593][193]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.30-06.07.56:593][193]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.30-06.07.56:593][193]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.04.30-06.07.56:593][193]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.04.30-06.07.56:594][193]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.04.30-06.07.56:594][193]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.04.30-06.07.56:594][193]LogInit: FAudioDevice initialized with ID 16.
+[2024.04.30-06.07.56:594][193]LogAudio: Display: Audio Device (ID: 16) registered with world 'MAP_Debug'.
+[2024.04.30-06.07.56:595][193]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.30-06.07.56:618][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-06.07.56:618][193]LogLoad: Game class is 'GM_Runner_C'
+[2024.04.30-06.07.56:618][193]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.04.29-23.07.56
+[2024.04.30-06.07.56:618][193]LogWorld: Bringing up level for play took: 0.000519
+[2024.04.30-06.07.56:620][193]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.04.30-06.07.56:623][193]PIE: Server logged in
+[2024.04.30-06.07.56:624][193]PIE: Play in editor total start time 0.164 seconds.
+[2024.04.30-06.07.56:702][193]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.04.30-06.08.04:173][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-06.08.04:173][863]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.04.30-06.08.04:173][863]LogSlate: Window 'MashRunner Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.04.30-06.08.04:179][863]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-06.08.04:179][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-06.08.04:181][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.30-06.08.04:185][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-06.08.04:203][863]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.30-06.08.04:203][863]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.30-06.08.04:205][863]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.30-06.08.04:209][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.04.30-06.08.04:244][865]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.04.30-06.08.35:110][169]BlueprintLog: New page: Compile BP_Runner
+[2024.04.30-06.08.35:194][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.04.30-06.08.36:573][322]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.30-06.08.36:576][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.30-06.08.36:576][322]PIE: New page: PIE session: MAP_Debug (Apr 29, 2024, 4:08:36 PM)
+[2024.04.30-06.08.36:576][322]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.04.30-06.08.36:578][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001499s)
+[2024.04.30-06.08.36:578][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_Debug.MAP_Debug to /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug (0.001524s)
+[2024.04.30-06.08.36:578][322]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-06.08.36:578][322]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-06.08.36:578][322]LogAIModule: Creating AISystem for world MAP_Debug
+[2024.04.30-06.08.36:578][322]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2024.04.30-06.08.36:596][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.04.30-06.08.36:598][322]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.04.30-06.08.36:598][322]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.30-06.08.36:598][322]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.30-06.08.36:598][322]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.30-06.08.36:598][322]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.30-06.08.36:598][322]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.30-06.08.36:598][322]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.04.30-06.08.36:598][322]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.30-06.08.36:598][322]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.30-06.08.36:599][322]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.30-06.08.36:599][322]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.30-06.08.36:599][322]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.30-06.08.36:600][322]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.30-06.08.36:617][322]LogAudioMixer: Display: Using Audio Hardware Device Speakers (FiiO Q series)
+[2024.04.30-06.08.36:617][322]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.30-06.08.36:617][322]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.30-06.08.36:617][322]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.30-06.08.36:618][322]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.04.30-06.08.36:618][322]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.04.30-06.08.36:619][322]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.04.30-06.08.36:619][322]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.04.30-06.08.36:619][322]LogInit: FAudioDevice initialized with ID 17.
+[2024.04.30-06.08.36:619][322]LogAudio: Display: Audio Device (ID: 17) registered with world 'MAP_Debug'.
+[2024.04.30-06.08.36:619][322]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.30-06.08.36:641][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-06.08.36:641][322]LogLoad: Game class is 'GM_Runner_C'
+[2024.04.30-06.08.36:641][322]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_Debug.MAP_Debug up for play (max tick rate 0) at 2024.04.29-23.08.36
+[2024.04.30-06.08.36:641][322]LogWorld: Bringing up level for play took: 0.000492
+[2024.04.30-06.08.36:643][322]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.04.30-06.08.36:646][322]PIE: Server logged in
+[2024.04.30-06.08.36:647][322]PIE: Play in editor total start time 0.071 seconds.
+[2024.04.30-06.08.36:658][322]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.04.30-06.08.46:263][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-06.08.46:263][439]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_Debug
+[2024.04.30-06.08.46:263][439]LogSlate: Window 'MashRunner Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.04.30-06.08.46:270][439]LogWorld: UWorld::CleanupWorld for MAP_Debug, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-06.08.46:270][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-06.08.46:272][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.30-06.08.46:275][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-06.08.46:293][439]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.30-06.08.46:293][439]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.30-06.08.46:294][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.30-06.08.46:295][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.30-06.08.46:300][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.04.30-06.08.46:324][440]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.04.30-06.09.01:279][960]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.30-06.09.01:302][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Runner" FILE="../../../../../../Git/Unreal Projects/MashRunner_2D/MashRunner/Content/Blueprints/BP_Runner.uasset" SILENT=true
+[2024.04.30-06.09.01:316][960]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Runner
+[2024.04.30-06.09.01:317][960]LogSavePackage: Moving '../../../../../../Git/Unreal Projects/MashRunner_2D/MashRunner/Saved/BP_RunnerBACC4F7745CDF4489B7DE598506C2653.tmp' to '../../../../../../Git/Unreal Projects/MashRunner_2D/MashRunner/Content/Blueprints/BP_Runner.uasset'
+[2024.04.30-06.09.01:323][960]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 1.79 sec)
+[2024.04.30-06.09.01:329][960]AssetCheck: New page: Asset Save: BP_Runner
+[2024.04.30-06.09.01:329][960]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Runner.BP_Runner
