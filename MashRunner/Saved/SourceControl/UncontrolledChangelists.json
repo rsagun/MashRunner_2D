@@ -1,0 +1,35 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/Maps/MAP_Debug.umap",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/FB_Runner_Idle.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/FB_Runner_Run.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_0.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_1.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_2.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_3.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_4.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_5.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_6.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_7.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_8.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner_Sprite_9.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Background/T_Field.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Goal/T_Goal_Connected.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Goal/T_Goal_Ripped.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Runner/T_Runner.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Background/T_Field_Sprite.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Goal/T_Goal_Connected_Sprite.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/PaperAssets/Goal/T_Goal_Ripped_Sprite.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/Blueprints/BP_Runner.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/Input/IMC_Runner.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/Blueprints/GM_Runner.uasset",
+				"E:/Git/Unreal Projects/MashRunner_2D/MashRunner/Content/Blueprints/Enums/E_Input.uasset"
+			]
+		}
+	]
+}
